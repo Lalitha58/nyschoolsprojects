@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sat_school_name"
+        android:textSize="32sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="2dp"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/no_sat_score_view"
+        android:text=""
+        android:textSize="24sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="4dp"
+        android:textColor="#0000cd"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reading_avg_score_tv"
+        android:text="Reading Average Score is"
+        android:textSize="24sp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#228b22"
+        android:layout_marginLeft="4dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/math_avg_score_tv"
+        android:text="Math Average Score is"
+        android:textSize="24dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#0000cd"
+        android:layout_marginLeft="4dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/writing_avg_score_tv"
+        android:text="Writing Average Score is"
+        android:textSize="24sp"
+        android:textColor="#9400d3"
+        android:layout_marginLeft="4dp"
+        />
+</LinearLayout>

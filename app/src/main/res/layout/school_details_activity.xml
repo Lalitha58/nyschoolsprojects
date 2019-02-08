@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/school_name"
+        android:textSize="32sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="2dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/school_overview"
+        android:layout_marginBottom="28dp"
+        android:layout_marginLeft="2dp"
+        android:textSize="14sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sat_button"
+        android:text="SAT Score"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/no_sat_score_view"/>
+
+</LinearLayout>
